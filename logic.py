@@ -21,6 +21,7 @@ print('''
 3. Multiplication
 4. Division
 5. Exponential
+6. floor division
 ''')
 
 '''
@@ -59,4 +60,11 @@ second_number = input('Enter second Number: ')
 sum = float(first_number) ** float(second_number)
 print(f'{first_number} ** {second_number} = {sum:.2f}')
 '''
+
+print('floor division')
+print('Enter two numbers to add')
+first_number = input('Enter first number: ')
+second_number = input('Enter second Number: ')
+sum = float(first_number) // float(second_number)
+print(f'{first_number} // {second_number} = {sum:.2f}')
 
